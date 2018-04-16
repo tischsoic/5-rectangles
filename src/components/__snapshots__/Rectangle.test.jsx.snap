@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rectangle renders correctly 1`] = `
+<div
+  className="rectangle"
+  onClick={[Function]}
+  role="presentation"
+  style={
+    Object {
+      "height": 40,
+      "left": 20,
+      "top": 10,
+      "width": 30,
+    }
+  }
+/>
+`;

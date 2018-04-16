@@ -1,0 +1,12 @@
+@import '../index.scss';
+
+.rectangle {
+  position: absolute;
+  background-color: $rectangle-bgcolor;
+}
+
+@media print {
+  .rectangle {
+    background-color: $body-bgcolor;
+  }
+}

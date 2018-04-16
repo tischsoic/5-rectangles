@@ -1,0 +1,4 @@
+export const ADD_RECTANGLE = 'ADD_RECTANGLE';
+export const REMOVE_RECTANGLE = 'REMOVE_RECTANGLE';
+
+export const MAX_RECTANGLE_COUNT = 5;
