@@ -44,7 +44,7 @@ export default function appReducer(state = initialState, action) {
         (rectangleRecord) => rectangleRecord.id !== rectangleId,
       );
 
-      const newState = state.mergeDeep({
+      const newState = state.merge({
         rectanglesCombinedWidth: newRectanglesCombinedWidth,
         rectangles: newRectangles,
       });
